@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Título de mi página web</title>
+      
+   </head>
+   <body>
+     <div id="fondo" style="position:absolute;  background-image: url("fondo_movil.png");"></div>
+     
+		<script type="text/javascript">
+		 var ancho= window.innerWidth;
+      var alto = window.innerHeight;
+			console.log("el ancho00 es " + ancho);
+			console.log("el alt00o es " + alto);  
+			var div = document.getElementById("fondo");
+			div.innerHTML = "el alto es: " + alto + "<br> el ancho es: " + ancho;
+			//var aux = ancho * .01;
+			ancho = ancho - (ancho * .004);
+			alto = alto - (alto * .005);
+			div.innerHTML = "nuevo ancho es: " + ancho;
+			
+			div.style.height = alto  + "px";
+			div.style.width = ancho + "px";
+			div.style.marginLeft = "-.8%";
+			div.style.marginTop = "-.5%"
+			
+		</script>     
+     
+   </body>
+</html>

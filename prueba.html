@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @keyframes slide-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(0); }
+    }
+
+    .slide-div {
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+      animation-name: slide-left;
+      animation-duration: 1s;
+    }
+  </style>
+  <script>
+    function handleClick() {
+      console.log('adios');
+      const element = document.querySelector('.slide-div');
+      element.style.animationPlayState = 'running';
+    }
+  </script>
+</head>
+<body>
+  <div class="slide-div" onclick="handleClick();">
+    <p>hola</p>
+  </div>
+</body>
+</html>

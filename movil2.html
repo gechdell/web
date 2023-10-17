@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    
+    <script src="funciones.js" type="text/javascript"></script>
+  </head>
+  <body>
+  
+  <div id="fondo">
+  
+<script type="text/javascript">
+		var ancho= window.innerWidth;
+      var alto = window.innerHeight;
+      var div = document.getElementById("fondo");    
+      
+     
+      //ancho = ancho - (ancho * .004);
+			//alto = alto - (alto * .005);
+			
+			ancho = ancho + (ancho * .008);
+			//alto = alto - (alto * .005);
+			
+			div.style.height = alto  + "px";
+			div.style.width = ancho + "px";
+			div.style.marginLeft = "-.8%";
+			div.style.marginTop = "-.5%"
+      
+    </script>  
+    
+    <img src="fondo_movil.png" style="width: 100%; height:100%; position:fixed; z-index: 1;" alt="">
+    
+    <div id="todo" style="width: 100%; height: 100%; position: fixed; z-index: 2;">
+    
+   
+	<div id="titulo-slogan"> 
+    	<div id="nombre-img"></div>
+      <div id="slogan"> Mas que un proveedor TU ALIADO EN TRACKING VEHICULAR </div>
+      <div id="logo"></div>
+   </div>
+   
+   <div id="cont-opciones">
+   	<div class="contenedor-extras" id="menu" onclick="abrirMenu()">
+    	<div class="cont-logos" id="cont-menu"></div>
+    	<div class="letra-logo"> MENU </div>
+    	</div>
+    	
+    	<div class="contenedor-extras" id="login" onclick="linkPlataforma()">
+    	<div class="cont-logos" id="cont-login"></div>
+    	<div class="letra-logo"> Acceso WEB </div>
+    	</div>
+    	
+    	<div class="contenedor-extras" id="multimedia" onclick="multimedia()">
+    	<div class="cont-logos" id="cont-multi"></div>
+    	<div class="letra-logo"> Multimedia </div>
+    	</div>
+    	
+    	<div class="contenedor-extras" id="whats" onclick="linkWhats()">
+      	<div class="cont-logos" id="cont-whats">
+      		<div id="circulo"></div>
+         	<div id="logo-whats"></div>
+         </div>
+      	<div class="letra-logo" id="letra-whats"> Contactanos!!! </div>
+    	</div>
+   
+   </div>
+   
+   <div id="menu-abierto">
+		<div id="cont-opc-menu">
+			 <div class="cont" id="cont-geo" onclick="clickexp()">
+				<div class="img" id="img-geo"> 
+				 <div class="letra" id="letra-geo">GEOCERCAS</div>
+				</div>
+      	</div>
+      	<div class="cont" id="cont-vel" onclick="clickexp()">
+        		<div class="img" id="img-vel"> 
+        			<div class="letra" id="letra-vel">VELOCIDAD<br>KILOMETRAJE</div>
+        		</div>
+      	</div>
+      	<div class="cont" id="cont-motor" onclick="clickexp()">
+        		<div class="img" id="img-motor"> 
+        			<div class="letra" id="letra-motor">PARO DE MOTOR</div>
+        		</div>
+      	</div>
+      	<div class="cont" id="cont-notifi" onclick="clickexp()">
+        		<div class="img" id="img-notifi"> 
+        			 <div class="letra" id="letra-notifi">ALERTAS</div>
+        		</div>
+      	</div>
+      	<div class="cont" id="cont-espejo" onclick="clickexp()">
+        		<div class="img" id="img-espejo">
+        			<div class="letra" id="letra-espejo">CUENTAS<br>
+          		ESPEJO</div>
+        		</div>
+      	</div>
+      	<div class="cont" id="cont-golpe" onclick="clickexp()">
+        		<div class="img" id="img-golpe"> 
+        				<div class="letra" id="letra-golpe">COLISIÓN</div>
+        		</div>
+      	</div>
+      	<div class="cont" id="cont-gas" onclick="clickexp()">
+        		<div class="img" id="img-gas">
+        				<div class="letra" id="letra-gas">COMBUSTIBLE</div>
+        		</div>
+      	</div>
+      	<div class="cont" id="cont-moni" onclick="clickexp()">
+        		<div class="img" id="img-moni"> 
+        			<div class="letra" id="letra-moni">MONITOREO<br>
+          		ACTIVO</div>
+        		</div>
+      	</div>
+		</div>
+		<div id="explicaciones"> 
+			 <div class="exp" id="exp-geo" >
+        		<div class="textos-exp">
+        			<h1 class="titulo">GEOCERCAS para los sistemas de GPS vehicular</h1>
+        			<div class="imagenes-exp" id="imagenes-geo"></div>
+        			<p>Las <strong>GEOCERCAS</strong> son áreas delimitadas por el usuario en un sistema de <strong>TRACKING VEHICULAR</strong>. Estas áreas pueden ser tan pequeñas como un par de calles, una colonia completa o incluso una ciudad entera. Las geocercas ayudan a proteger vehículos y usuarios al enviar notificaciones o detener el motor del vehículo si este sobrepasa los límites establecidos. También se utilizan para rastrear y proteger flotillas de autos, evitando robos y asegurando la seguridad de los conductores y pasajeros. Además, las geocercas permiten a los administradores de flotas monitorear la ubicación y el comportamiento de los vehículos en tiempo real, lo que facilita la toma de decisiones informadas y la optimización de las operaciones. En resumen, las geocercas son una herramienta valiosa para mejorar la seguridad, la eficiencia y la productividad en el seguimiento de vehículos y flotillas.</p>
+  				</div>
+       	</div>
+       	
+       	<div class="exp" id="exp-vel">
+        		<div class="textos-exp">
+        			<h1 class="titulo">Límites de velocidad y kilómetros recorridos para los sistemas de GPS vehicular</h1> 
+					<div class="imagenes-exp" id="imagenes-vel"></div>         
+        			<p>Los límites de velocidad son las velocidades máximas o mínimas que se permiten para circular por una vía determinada. Estos límites se establecen para garantizar la seguridad de los conductores, pasajeros, ciclistas y peatones, y para evitar accidentes de tráfico. Los límites de velocidad pueden variar según el tipo de vía, el tipo de vehículo y las condiciones climáticas o del tráfico. En México, los límites de velocidad van desde los <strong>10 km/h</strong> en estacionamientos y vías peatonales hasta los <strong>80 km/h</strong> en carriles centrales de algunas vialidades.</p> <p>Los kilómetros recorridos son la distancia que un vehículo automotor ha viajado en un periodo de tiempo. Los sistemas de GPS vehicular son dispositivos que usan la tecnología del Sistema de Posicionamiento Global (GPS) para determinar la ubicación, la velocidad y la dirección de un vehículo automotor. Estos sistemas pueden registrar y almacenar los kilómetros recorridos por un vehículo automotor, así como otros datos como el tiempo de conducción, las paradas realizadas, el consumo de combustible y las infracciones cometidas. Los sistemas de GPS vehicular pueden tener varios beneficios, como:</p> <ul> <li>Mejorar la seguridad, el rendimiento y la eficiencia de los vehículos automotores.</li> <li>Facilitar la navegación y el seguimiento.</li> <li>Reducir los costos operativos y de mantenimiento.</li> </ul> <p>En México, los sistemas de GPS vehicular son obligatorios para algunos tipos de vehículos automotores, como los que transportan mercancías peligrosas o personas.</p>
+        		</div>
+        </div>
+        
+         <div class="exp" id="exp-motor">
+         	<div class="textos-exp">
+         		<h1 class="titulo">Paro de motor para los sistemas de GPS vehicular</h1>
+         		<div class="imagenes-exp" id="imagenes-motor"></div>
+         		<p>El paro de motor es una función que permite detener el motor de un vehículo a distancia en caso de robo o emergencia. Esta función se basa en la tecnología GPS, que permite localizar y rastrear el vehículo en tiempo real. Para que el paro de motor funcione, se necesita instalar un dispositivo de relevo que conecte la unidad GPS con el motor del vehículo. Cuando se detecta una amenaza, se envía una señal desde la plataforma de rastreo al dispositivo de relevo, que corta el suministro de combustible o electricidad al motor, haciendo que el vehículo se detenga gradualmente. El paro de motor solo se puede desactivar desde la plataforma de rastreo, lo que impide que el ladrón pueda arrancar el vehículo de nuevo.</p> <p>El paro de motor es una herramienta muy útil para proteger los vehículos y las mercancías que transportan, ya que facilita su recuperación y evita accidentes. El paro de motor tiene varios beneficios, como:</p> <ul> <li><strong>Aumentar la seguridad</strong>: El paro de motor permite detener el vehículo en caso de robo o emergencia, evitando que el ladrón pueda escapar o causar daños a terceros.</li> <li><strong>Facilitar la recuperación</strong>: El paro de motor permite localizar y rastrear el vehículo en tiempo real, lo que ayuda a las autoridades a encontrarlo y recuperarlo más rápido.</li> <li><strong>Reducir los costos</strong>: El paro de motor permite evitar pérdidas económicas por robo o daños al vehículo o a la mercancía, así como reducir los gastos por seguros o indemnizaciones.</li> </ul>
+         	</div>
+        </div>
+        
+        <div class="exp" id="exp-notifi">
+        		<div class="textos-exp">
+        			<h1 class="titulo">¿Qué es un sistema de notificaciones para los sistemas de GPS vehicular?</h1> 
+         		<div class="imagenes-exp" id="imagenes-notifi"></div>
+        			<p>Un sistema de notificaciones para los sistemas de GPS vehicular es una forma de comunicar al usuario o al administrador de una flota de vehículos información relevante sobre el estado, la ubicación y el comportamiento de los mismos. Por ejemplo, un sistema de notificaciones puede enviar un <strong>mensaje de texto</strong>, un <strong>correo electrónico</strong> o una <strong>alerta sonora</strong> si el vehículo excede la velocidad permitida, si se desvía de la ruta establecida, si sufre un accidente o si necesita mantenimiento. Un sistema de notificaciones puede ayudar a mejorar la seguridad, la eficiencia y el control de los vehículos que utilizan un sistema de rastreo GPS .</p>
+					<p>Además de lo anterior, un sistema de notificaciones para los sistemas de GPS vehicular puede ofrecer otras funciones y beneficios, como por ejemplo:</p> <ul> <li>Permitir al usuario o al administrador configurar las preferencias de las notificaciones, como el tipo, la frecuencia, el canal y el destinatario de las mismas .</li> <li>Generar reportes e historiales de las notificaciones recibidas, lo que puede facilitar el análisis y la toma de decisiones .</li> <li>Integrarse con otras aplicaciones o plataformas, como redes sociales, sistemas de gestión de flotas, sistemas de emergencia o sistemas de pago .</li> <li>Proporcionar una mayor tranquilidad al usuario o al administrador, al saber que están al tanto de lo que ocurre con sus vehículos en todo momento .</li> </ul>
+				</div>
+        </div>
+        
+        <div class="exp" id="exp-espejo">
+        		<div class="textos-exp">
+        			<h1 class="titulo">¿Qué es una cuenta espejo para los sistemas de GPS vehicular?</h1>
+        			<div class="imagenes-exp" id="imagenes-espejo"></div>
+        			<p>Una cuenta espejo para los sistemas de GPS vehicular es una función que permite compartir la ubicación y el seguimiento en tiempo real de uno o más vehículos con un tercero, generalmente un cliente que espera su mercancía o servicio. La cuenta espejo se crea mediante un <strong>enlace</strong> que se envía al cliente, el cual puede acceder a una plataforma donde puede ver solo las unidades que se le han asignado y por un tiempo limitado. La cuenta espejo tiene como objetivo brindar mayor confianza, transparencia y satisfacción al cliente, al mismo tiempo que reduce los costos y el tiempo de atención al cliente por parte de la empresa de transporte .</p>
+        		</div>
+        </div>
+        
+        <div class="exp" id="exp-golpe">
+        		<div class="textos-exp">
+        			<h1 class="titulo">¿Qué es un sensor de colisión para los sistemas de GPS vehicular?</h1> 
+        			<div class="imagenes-exp" id="imagenes-golpe"></div>
+        			<p>Un sensor de colisión para los sistemas de GPS vehicular es un dispositivo que mide la aceleración o la desaceleración de un vehículo cuando se produce un impacto o una situación de riesgo. El sensor envía una señal a la unidad de control del sistema de GPS, que puede realizar diferentes. El sensor de colisión puede estar instalado dentro del mismo <strong>equipo GPS</strong>, en la parte frontal, lateral o trasera del vehículo, dependiendo del tipo y la dirección del choque que se quiere detectar. El sensor de colisión puede ayudar a prevenir o reducir las consecuencias de los accidentes de tráfico, aumentando la seguridad y el control de los vehículos que utilizan un sistema de rastreo GPS .</p>
+        		</div>
+        </div>
+        
+        <div class="exp" id="exp-gas">
+         	<div class="textos-exp">
+         		<h1 class="titulo">¿Qué es y para qué sirve el monitoreo de combustible para los sistemas de GPS vehicular?</h1> 
+         		<div class="imagenes-exp" id="imagenes-gas"></div>
+         		<p>El monitoreo de combustible para los sistemas de GPS vehicular es una forma de controlar y optimizar el consumo y el nivel de combustible de los vehículos que utilizan un sistema de rastreo GPS. El monitoreo de combustible puede realizarse mediante Sensores incorporados en el mismo equipo GPS, la conexión del dispositivo GPS a la computadora a bordo del vehículo (CANbus) o mediante la instalación de un sensor de nivel de combustible en el tanque. El monitoreo de combustible sirve para varios propósitos, como por ejemplo:</p> <ul> <li><strong>Reducir los costos operativos</strong> al evitar el desperdicio, el robo o el abuso de combustible .</li> <li><strong>Mejorar la seguridad y el control</strong> de los vehículos al detectar y prevenir situaciones de riesgo, como colisiones, fugas o incendios .</li> <li><strong>Generar reportes e historiales</strong> del consumo y el nivel de combustible, lo que facilita el análisis y la toma de decisiones .</li> <li><strong>Aumentar la confianza, la transparencia y la satisfacción</strong> de los clientes al compartir la información del combustible con ellos .</li> </ul>
+         	</div>
+        </div>
+        
+        <div class="exp" id="exp-moni">
+        		<div class="textos-exp">
+        			<h1 class="titulo">¿Qué es y para qué sirve el monitoreo activo con monitoristas en los sistemas de GPS vehicular?</h1> 
+        			<div class="imagenes-exp" id="imagenes-moni"></div>
+        			<p>El monitoreo activo con monitoristas en los sistemas de GPS vehicular es una forma de controlar y localizar la ubicación y el estado de los vehículos en tiempo real, mediante la conexión del dispositivo GPS a una plataforma web o móvil, y con la asistencia de un personal especializado que verifica y reporta cualquier anomalía o situación de riesgo. El monitoreo activo con monitoristas permite al transportista o al administrador conocer la ruta, la velocidad, el consumo de combustible y otros datos relevantes de los vehículos, así como recibir <strong>alertas</strong>, <strong>notificaciones</strong> y <strong>asesoramiento</strong> en caso de emergencia. El monitoreo activo con monitoristas se diferencia del monitoreo pasivo en que este último solo almacena los datos para su posterior recuperación, y del monitoreo activo sin monitoristas en que este último solo muestra los datos en una pantalla sin intervenir ni comunicarse con el conductor .</p> <p>El monitoreo activo con monitoristas es utilizado por diversas industrias que requieren un mayor nivel de seguridad y control de sus vehículos, como la minería, el petróleo y el gas, el transporte público y el transporte de mercancías .</p>
+        		</div>
+        </div>
+			
+		</div>
+    </div>
+   
+   <div id="menu-multimedia">
+   
+   <iframe class="videos" src="https://www.facebook.com/plugins/video.php?height=412&href=https%3A%2F%2Fwww.facebook.com%2Fgpsgechdell%2Fvideos%2F978193666772061%2F&show_text=false&width=214&t=0" 
+    	
+    	scrolling="no" frameborder="0" allowfullscreen="true"
+    	 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>    
+    	 
+    	<iframe class="videos"
+     src="https://www.youtube.com/embed/HEqKGDYiQxU?si=BLmuQ7frRpq0F5ok&amp;controls=0" 
+     title="YouTube video player" frameborder="0" 
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     
+   </div>
+   
+	</div>   
+   
+  </div>
+    
+  </body>
+</html>

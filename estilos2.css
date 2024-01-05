@@ -150,7 +150,7 @@ body{
         opacity: 0;
         text-align: center;
         color: #FEA82F;
-        /*font-family: "inter";*/
+        font-family: "inter";
       }
       
 #logo{
@@ -317,8 +317,8 @@ body{
 			visibility: hidden;
 			background-color: #423e3b;
 			width: 99%;
-			height: 82%;
-			top: -45%;
+			height: 88%;
+			top: -50%;
 			left: .5%;
 			opacity: .95;
 			display: flex;
@@ -330,6 +330,7 @@ body{
 		width: 98%;
 		height: 25%;
 		left: 1%;
+		margin-top: 3%;
 
 }
 
@@ -359,7 +360,7 @@ body{
         font-size: 1.7vh;
         width: 100%;
        	height: 25%;
-        margin-top: 80%;
+        margin-top: 89%;
         left: -25%;
         display: flex;
         text-align: center;
@@ -457,10 +458,10 @@ body{
      }
 
 #letra-golpe{
-		left: -10%;
+		left: -5%;
 		top: -40%;
 		scale: .7;
-/*		margin-top: 85%;*/
+		margin-top: 93%;
 }
 
 #cont-gas{

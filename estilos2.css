@@ -150,7 +150,7 @@ body{
         opacity: 0;
         text-align: center;
         color: #FEA82F;
-        font-family: "inter";
+        /*font-family: "inter";*/
       }
       
 #logo{
@@ -173,7 +173,7 @@ body{
 
 #cont-opciones{
 	position: relative;
-	top: -40%;
+	top: -43%;
 	/*left: 1%;*/
 	left: -17%;
 	height: 20%;
@@ -183,13 +183,14 @@ body{
 
 .contenedor-extras{
         position: relative;
-       /* background-color: blue;*/
+/*        background-color: blue;*/
         animation: desvanecer 2s;
         animation-delay: 3s;
         animation-fill-mode: forwards;
         width: 35%;
         height: 40%;
         display: flex;
+/*        display: inline-block;*/
         opacity: 0;
         align-items: center;
       }
@@ -217,7 +218,9 @@ body{
 		}
 		
 #menu{
-	left: 5%;
+	left: 25%;
+/*	background-color: green;*/
+	display: inline-block;
 }
 		
 #cont-menu{
@@ -239,8 +242,10 @@ body{
 		}
 		
 #login{
-	left: 50%;
-	top: -40%;
+	left: 43%;
+	top: 0%;
+	display: inline-block;
+/*	background-color: green;*/
 }
 
 #cont-multi{
@@ -252,8 +257,10 @@ body{
 		}
 		
 #multimedia{
-	left: 22%;
-	top: -80%;
+	left: 46%;
+	top: -40%;
+	display: inline-block;
+/*	background-color: pink;*/
 }
 
 #cont-whats{
@@ -288,9 +295,13 @@ body{
 		}
 		
 #whats{
-	left: 72%;
-	top: -120%;
-	width: 45%;
+	left: 47%;
+	top: -35%;
+	width: 33%;
+	height: 20%;
+	/*display: inline-block;*/
+/*	background-color: yellow;*/
+	align-items: center;
 }
 
 #letra-whats{
@@ -343,7 +354,7 @@ body{
       
 .letra{
          position: relative;
-        /*background-color: red;*/
+/*        background-color: red;*/
         font-weight: bold;
         font-size: 1.7vh;
         width: 100%;
@@ -366,7 +377,7 @@ body{
       }
       
 #letra-geo{
-		margin-top: 80%;
+/*		margin-top: 110%;*/
 }
       
 #cont-vel{
@@ -380,7 +391,7 @@ body{
        
 #letra-vel{
 		margin-left: -14%;
-		margin-top: 80%;
+/*		margin-top: 80%;*/
 }
 
 #cont-motor{
@@ -395,7 +406,7 @@ body{
 #letra-motor{
 		margin-left: 18%;
 		width: 120%;
-		margin-top: 80%;
+/*		margin-top: 80%;*/
 }
 
 #cont-notifi{
@@ -412,7 +423,7 @@ body{
 	
 #letra-notifi{
 		margin-left: 15%;
-		margin-top: 80%;
+/*		margin-top: 80%;*/
 }
 
 #cont-espejo{
@@ -431,7 +442,7 @@ body{
 		left: -7%;
 		top: -33%;
 		scale: .8;
-		margin-top: 80%;
+/*		margin-top: 80%;*/
 }
 
 #cont-golpe{
@@ -449,7 +460,7 @@ body{
 		left: -10%;
 		top: -40%;
 		scale: .7;
-		margin-top: 85%;
+/*		margin-top: 85%;*/
 }
 
 #cont-gas{
@@ -465,7 +476,7 @@ body{
 #letra-gas{
 		left: -40%;
 		scale: .95;
-		margin-top: 80%;
+/*		margin-top: 80%;*/
 }
 
 #cont-moni{
@@ -479,7 +490,7 @@ body{
       }
       
 #letra-moni{
-		margin-top: 80%;
+/*		margin-top: 80%;*/
 }
 		
 /*SECCION DE EXPLICACIONES*/
